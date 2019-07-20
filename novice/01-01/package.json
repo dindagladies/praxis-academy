@@ -1,0 +1,26 @@
+{
+  "name": "learn-npm",
+  "version": "1.0.0",
+  "description": "learn basic npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dindagladies/praxis-academy.git"
+  },
+  "keywords": [
+    "npm",
+    "basic"
+  ],
+  "author": "dinda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dindagladies/praxis-academy/issues"
+  },
+  "homepage": "https://github.com/dindagladies/praxis-academy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
