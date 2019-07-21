@@ -34,6 +34,9 @@ Fizz
 FizzBuzz
 '''
 
-## Description
+## Explanation
 - use  looping
 - using if else
+- we have variabel a, and the content is 1
+- Every a less then 101, so variabel a always plus 1, and the result will show number one until 100
+- In a looping, there is if else, where if a / 3 , and 
