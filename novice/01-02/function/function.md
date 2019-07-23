@@ -44,7 +44,23 @@ False
 # Bean Counting
 
 ## Result
+```
+console.log(countBs("BBC"));
+// → 2
+console.log(countChar("kakkerlak", "k"));
+// → 4
+```
 
 ## Code
+[beancounting.js]()
 
-## Explanationd
+
+## Explanation
+- before run countBs function, we should make countChar function. 
+- in countChar function, we have word and ch parameters. 
+- there is total = 0 ( for variabel counting)
+- for i = 0 and i less then word length , i always add 1
+- in for, there is if word in i same like ch, so that will start counting,or plus 1.
+- then return toal.
+
+- Then in countBs function, there is countChar function with ch = B
