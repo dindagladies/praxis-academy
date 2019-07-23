@@ -9,7 +9,7 @@ console.log(min(0,-10))
 ```
 
 ## Code
-[minimum.js]()
+[minimum.js](https://github.com/dindagladies/praxis-academy/blob/master/novice/01-02/function/minimum.js)
 
 ## Explanation
 - There is function, call min
@@ -32,7 +32,7 @@ False
 ```
 
 ## Code
-[recursion.js]()
+[recursion.js](https://github.com/dindagladies/praxis-academy/blob/master/novice/01-02/function/recursion.js)
 
 ## Explanation
 - There is isEven function , that has angka parameter
@@ -52,7 +52,7 @@ console.log(countChar("kakkerlak", "k"));
 ```
 
 ## Code
-[beancounting.js]()
+[beancounting.js](https://github.com/dindagladies/praxis-academy/blob/master/novice/01-02/function/beancounting.js)
 
 
 ## Explanation
