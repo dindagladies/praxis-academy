@@ -9,16 +9,8 @@ console.log(min(0,-10))
 ```
 
 ## Code
-```
-const min = function(a,b){
-	if (a<b){
-		return a;
-	}
-	else if (a>b){
-		return b;
-	}
-}
-```
+[minimum.js]()
+
 ## Explanation
 - There is function, call min
 - min function has parameters, a and b
@@ -40,22 +32,14 @@ False
 ```
 
 ## Code
-```
-const isEven = function(angka){
-	if (angka >= 0){
-		return true;
-	}
-	else{
-		return false;
-	}
-}
-```
+[recursion.js]()
 
 ## Explanation
 - There is isEven function , that has angka parameter
 - using if else method
 - if angka more then -1 , then return boolean true
 - if angka less then 0, then return boolean false
+
 
 # Bean Counting
 
