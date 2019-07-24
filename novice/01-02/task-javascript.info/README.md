@@ -31,3 +31,54 @@ console.log(count(user));
 #### Code
 [object.js (2)]()
 
+
+## ITERABLES
+### Symbol.Iterator
+#### Results
+```
+1
+2
+3
+```
+
+#### Code 
+[iterables.js (1)]()
+
+#### Explanation
+
+### String is Iterable
+#### Results
+```
+t
+e
+s
+t
+```
+
+#### Code
+[iterables.js(2)]()
+
+#### Explanation
+
+### Calling an iterator explicitly
+#### Results
+```
+H
+e
+l
+l
+o
+```
+
+#### Code
+[iterables.js(3)]()
+
+#### Explanation
+
+### Array.From
+
+#### Results
+#### Code
+[iterables.js (4)]()
+
+#### Explanation
