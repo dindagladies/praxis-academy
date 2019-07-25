@@ -82,3 +82,32 @@ o
 [iterables.js (4)]()
 
 #### Explanation
+
+## MAP - SET
+### Filter Unique array members
+#### Results
+```
+[ 'Hare', 'Krishna', ':-O' ]
+```
+#### Code
+[map-set.js (1)]()
+
+#### Explanation
+
+### Filter Anagrams
+#### Results
+```
+[ 'PAN', 'hectares', 'era' ]
+```
+#### Code
+[map-set.js (2)]()
+#### Explanation
+
+### Iterable Keys
+#### Results
+```
+[ 'name', 'more' ]
+```
+#### Code
+[map-set.js (3)]()
+#### Explanation
