@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dictionary</title>
+</head>
+<body>
+    <header> English to Indonesia Dictionary</header>
+    <div class="search">
+        <input type="text" placeholder="search word" id="input">
+        <button onclick="search()">Search</button>
+    </div>
+    <div class="row" id="show">
+        <ul style="list-style-type: none">
+            <li id="word"><h1>Test</h1></li>
+            <li id="mean"><h3>Test2</h3></li>
+        </ul>
+    </div>
+    <button onclick="del()">Delete</button>
+
+    <script type="text/javascript">
+        var words = [
+            {
+                word : "one",
+                mean : "satu"
+            },
+            {
+                word : "two",
+                mean : "dua"
+            },
+            {
+                word : "three",
+                mean : "tiga"
+            },
+            {
+                word : "four",
+                mean : "empat"
+            },
+            {
+                word : "five",
+                mean : "lima"
+            }
+        ];
+        
+        // show all
+        const statements = words.map(wordItem => {
+            return wordItem;
+            
+        })
+        console.log(statements);
+        //
+
+        //search
+        var input = document.getElementById("input");
+
+        if (input == english.word){
+            return english(word).mean;
+        }
+
+
+        //
+        function search(){
+            // var w = document.getElementById('word').innerHTML = english[i].word;
+            // var m = document.getElementById('mean').innerHTML = english[i].mean;
+
+            input = document.getElementById("input");
+            words = document
+
+            // var eng = new Map([[]]);
+            // eng.set(w, m);
+            // return eng;
+            
+        }
+
+        function myFunction() {
+            //var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+        
+
+    </script>
+</body>
+</html>
