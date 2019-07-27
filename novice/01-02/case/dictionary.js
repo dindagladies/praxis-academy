@@ -14,7 +14,7 @@ english.set('three', 'tiga')
 //delete data
 english.delete('one')
 // console.log(english.get('one'));
-// console.log(english);
+console.log(english);
 
 //
 // var words = [
@@ -54,10 +54,15 @@ let words = new Map([
     ['two', 'dua']
 ]);
 
+function add(a, b){
+    let word = new Map([[]]);
+    word.set(a, b)
+}
 
+console.log(add('not', 'tidak'));
 
 function cek(){
-    var word = ["two"];
+    //var word = ["two"];
     for(var word of words.keys()){
         return words.get(word);
         // console.log(word);
