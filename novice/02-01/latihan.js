@@ -1,22 +1,22 @@
 // 2
-// var mike = {name : 'Mike'};
-// var odd = [1];
-// var morning = function(){ return "Greeting";}
-// // morning.info = 'Morning Greeting function';
+var mike = {name : 'Mike'};
+var odd = [1];
+var morning = function(){ return "Greeting";}
+morning.info = 'Morning Greeting function';
 
-// var evening = morning;
-// var john = mike;
-// var even = odd;
+var evening = morning;
+var john = mike;
+var even = odd;
 
-// var kate = mike;
-// kate = {name : 'Kate'};
+var kate = mike;
+kate = {name : 'Kate'};
 
-// evening.info = 'Evening greeting function';
-// john.name = 'John';
-// even[0]= 1;
+evening.info = 'Evening greeting function';
+john.name = 'John';
+even[0]= 1;
 
-// console.log('first ==>' , morning.info, mike, odd);
-// console.log('second ==>', evening.info, john, even);
+console.log('first ==>' , morning.info, mike, odd);
+console.log('second ==>', evening.info, john, even);
 //2
 
 //3
@@ -66,37 +66,37 @@
 //5
 
 //6
-function Animal(className) {
-    this.className = className;
-  }
+// function Animal(className) {
+//     this.className = className;
+//   }
   
-  // add method to Animal prototype
-  Animal.prototype.getClass = function() {
-    return 'Animal class is : ' + this.className;
-  };
+//   // add method to Animal prototype
+//   Animal.prototype.getClass = function() {
+//     return 'Animal class is : ' + this.className;
+//   };
   
-  function Dog(name) {
-    // execute parent constructor
-    Animal.call( this, 'Animal' ); // pass this, arguments
+//   function Dog(name) {
+//     // execute parent constructor
+//     Animal.call( this, 'Animal' ); // pass this, arguments
     
-    this.name = name; // add new property
-  }
+//     this.name = name; // add new property
+//   }
   
-  // save Animal.prototype in Dog.prototype
-  Dog.prototype = Object.create(Animal.prototype);
+//   // save Animal.prototype in Dog.prototype
+//   Dog.prototype = Object.create(Animal.prototype);
   
-  // add constructor reference on Dog prototype
-  Dog.prototype.constructor = Dog;
+//   // add constructor reference on Dog prototype
+//   Dog.prototype.constructor = Dog;
   
-  // add method to Dog prototype
-  Dog.prototype.getName = function() {
-    return this.name;
-  }
+//   // add method to Dog prototype
+//   Dog.prototype.getName = function() {
+//     return this.name;
+//   }
   
-  // create dog object
-  var d = new Dog( 'Tommy' );
+//   // create dog object
+//   var d = new Dog( 'Tommy' );
   
-  console.log(d); // show dog
-  console.log(d.getClass()); // show Dog prototype
+//   console.log(d); // show dog
+//   console.log(d.getClass()); // show Dog prototype
 //6  
 
