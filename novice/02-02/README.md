@@ -5,5 +5,8 @@ Asynchronous Programming di Javascript
 Dinda Gladis Surya Dara
 
 # Content
-- synchronous adalah sebuah operasi akan dijalankan setelah operasi sebelumnya selesai dijalankan alias berurutan
- - asynchronous tidak perlu menunggu operasi sebelumnya selesai untuk mengeksekusi operasi setelahnya
+- [Synchronous]()
+- [Asynchronus]()
+- [Class]()
+- [Promise=()
+- [Case - Get API from jsonplaceholder]()

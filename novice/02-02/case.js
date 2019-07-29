@@ -1,3 +1,4 @@
+// Using Axios
 const axios = require('axios');
 
 axios.get('https://jsonplaceholder.typicode.com/posts')
@@ -17,3 +18,6 @@ axios.get('https://jsonplaceholder.typicode.com/posts')
 //         console.log(post.id);   
 //     }
 // }
+
+// Using HTTPS Request
+
