@@ -5,8 +5,8 @@ Asynchronous Programming di Javascript
 Dinda Gladis Surya Dara
 
 # Content
-- [Synchronous]()
-- [Asynchronus]()
-- [Class]()
-- [Promise=()
-- [Case - Get API from jsonplaceholder]()
+- [Synchronous](https://github.com/dindagladies/praxis-academy/tree/master/novice/02-02/latihan)
+- [Asynchronus](https://github.com/dindagladies/praxis-academy/tree/master/novice/02-02/latihan)
+- [Class](https://github.com/dindagladies/praxis-academy/tree/master/novice/02-02/latihan)
+- [Promise](https://github.com/dindagladies/praxis-academy/tree/master/novice/02-02/latihan)
+- [Case - Get API from jsonplaceholder](https://github.com/dindagladies/praxis-academy/tree/master/novice/02-02/case)
