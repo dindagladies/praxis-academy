@@ -1,0 +1,85 @@
+<!-- querySelector -->
+<div>query Selector</div>
+<p>query Selector All</p>
+<button onclick="foo">add Event Listener</button>
+
+<script>
+// query Selector
+var firstDiv = document.querySelector('div');
+firstDiv.style.color = 'red';
+
+//query Selector All
+var paragraphs = document.querySelectorAll('p')
+for(var p of paragraphs)
+p.style.color = 'blue';
+
+// addEventListener()
+var btn = document.querySelector('button');
+btn.addEventListener('click', foo);
+function foo(){ alert('hello'); }
+
+// removeEventListener()
+btn.removeEventListener('click', foo);
+
+// createElement()
+var pEle = document.createElement('p')
+
+// appendChild()
+var div = document.querySelector('div');
+var strong = document.createElement('strong');
+strong.textContent = 'Hello';
+div.appendChild(strong);
+
+// removeChild()
+div.removeChild(strong);
+
+// replaceChild()
+var em = document.createElement('em');
+var strong = document.querySelector('strong');
+var div = document.querySelector('div');
+em.textContent = 'hi';
+div.replaceChild(em, strong);
+
+// cloneNode()
+var strong = document.querySelector('strong');
+var copy = strong.cloneNode(true);
+var div = document.querySelector('div');
+div.appendChild(copy);
+
+// insertBefore()
+var em = document.createElement('em');
+var strong = document.querySelector('strong');
+var div = document.querySelector('div');
+em.textContent = 'hi';
+div.insertBefore(em, strong);
+
+// createDocumentFragment()
+var table = document.querySelector("table");
+var df = document.createDocumentFragment();
+ 
+for(var i=0; i<5; i++) {
+  var td = document.createElement("td");
+  var tr = document.createElement("tr");
+  td.textContent = i;
+  tr.appendChild(td)
+  df.appendChild(tr);
+}
+ 
+table.appendChild(df);
+
+// getComputedSttyle()
+var style = getComputedStyle(document.querySelector('div'));
+alert(style.width);
+
+// setAttribute()
+var div = document.querySelector('div');
+div.setAttribute('contenteditable', '')
+
+// getAttribute()
+var div = document.querySelector('div');
+alert(div.getAttribute('contenteditable'))
+
+// removeAttribute()
+var div = document.querySelector('div');
+div.removeAttribute('contenteditable');
+</script>
