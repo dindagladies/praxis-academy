@@ -4,18 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Query Selector</title>
+    <title>Document</title>
 </head>
 <body>
-    <p>paragraph one</p>
-    <p>paragraph two</p>
-    <div>div one</div>
-    <p>paragraph three</p>
-    <div>div two</div>
+    <div>Hello</div>
 
     <script>
-        var firstDiv = document.querySelector('div');
-        firstDiv.style.color = 'red';
+        var div = document.querySelector('div');
+        div.setAttribute('contenteditable', '')
     </script>
 </body>
 </html>
